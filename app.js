@@ -15,12 +15,14 @@ function adicionarAmigo() {
             labelListaAmigos.innerHTML += '<li>' + listaAmigosAdicionados[i] + '</li>';
         }
         inputNome.value = '';
+        resultado.innerHTML = '';
     }
 }
 
 function sortearAmigo() {
     if (listaAmigosAdicionados.length == 0) {
-        alert('Nome Inválido! Por favor, insira um nome válido.');
+        alert('Não é possível sortear uma pessoa, pois não há pessoas adicionadas na lista!');
+        resultado.innerHTML = '';
     }
     else {
         let numeroSorteado = Math.floor(Math.random() * listaAmigosAdicionados.length);
