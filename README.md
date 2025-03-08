@@ -35,3 +35,7 @@ Abra com o Visual Studio Code
 ```bash
   code .
 ```
+
+## Imagens
+<img src="assets/readme/img/amigo_secreto_nomes.png">
+<img src="assets/readme/img/amigo_sorteado.png">
