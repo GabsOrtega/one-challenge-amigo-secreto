@@ -35,9 +35,3 @@ Abra com o Visual Studio Code
 ```bash
   code .
 ```
-
-
-## Screenshots
-
-![App Screenshot](https://imgur.com/a/poKIQ7i)
-
